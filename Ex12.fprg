@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="12"/>
+        <attribute name="authors" value="2403321"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-22 09:32:41 "/>
+        <attribute name="created" value="MjQwMzMyMTtTQUxBMTA3MTI7MjAyNS0wMy0yMjsiMDk6MDQ6MTggIjsyMDg0"/>
+        <attribute name="edited" value="MjQwMzMyMTtTQUxBMTA3MTI7MjAyNS0wMy0yMjsiMDk6MzI6NDEgIjsyOzIxOTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="salarioMinimo" type="Real" array="False" size=""/>
+            <declare name="salarioFunc" type="Real" array="False" size=""/>
+            <declare name="resultado" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o sal&#225;rio minimo: &quot;" newline="True"/>
+            <input variable="salarioMinimo"/>
+            <output expression="&quot;Digite o sal&#225;rio do funcionario: &quot;" newline="True"/>
+            <input variable="salarioFunc"/>
+            <assign variable="resultado" expression="salarioFunc / salarioMinimo"/>
+            <output expression="resultado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

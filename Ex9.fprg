@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ex9"/>
+        <attribute name="authors" value="2403321"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-22 08:42:43 "/>
+        <attribute name="created" value="MjQwMzMyMTtTQUxBMTA3MTI7MjAyNS0wMy0yMjsiMDg6Mzc6MDAgIjsyMDgw"/>
+        <attribute name="edited" value="MjQwMzMyMTtTQUxBMTA3MTI7MjAyNS0wMy0yMjsiMDg6NDI6NDMgIjsxOzIxOTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="BaseMaior" type="Real" array="False" size=""/>
+            <declare name="BaseMenor" type="Integer" array="False" size=""/>
+            <declare name="Altura" type="Integer" array="False" size=""/>
+            <declare name="trapezio" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a base maior: &quot;" newline="True"/>
+            <input variable="BaseMaior"/>
+            <output expression="&quot;Digite a base menor: &quot;" newline="True"/>
+            <input variable="BaseMenor"/>
+            <output expression="&quot;Digite a altura: &quot;" newline="True"/>
+            <input variable="Altura"/>
+            <assign variable="trapezio" expression="((BaseMaior + BaseMenor) * Altura) / 2"/>
+            <output expression="trapezio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

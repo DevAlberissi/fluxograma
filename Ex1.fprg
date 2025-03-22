@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ex1"/>
+        <attribute name="authors" value="2403321"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-22 08:34:26 "/>
+        <attribute name="created" value="MjQwMzMyMTtTQUxBMTA3MTI7MjAyNS0wMy0yMjsiMDg6MTM6NDEgIjsyMDc5"/>
+        <attribute name="edited" value="MjQwMzMyMTtTQUxBMTA3MTI7MjAyNS0wMy0yMjsiMDg6MzQ6MjYgIjsxOzIxOTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero1" type="Integer" array="False" size=""/>
+            <declare name="numero2" type="Integer" array="False" size=""/>
+            <declare name="sub" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero: &quot;" newline="True"/>
+            <input variable="numero1"/>
+            <output expression="&quot;Digite outro n&#250;mero: &quot;" newline="True"/>
+            <input variable="numero2"/>
+            <assign variable="sub" expression="numero1 - numero2"/>
+            <output expression="sub" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ex11"/>
+        <attribute name="authors" value="2403321"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-22 08:54:33 "/>
+        <attribute name="created" value="MjQwMzMyMTtTQUxBMTA3MTI7MjAyNS0wMy0yMjsiMDg6NTI6MTYgIjsyMDg0"/>
+        <attribute name="edited" value="MjQwMzMyMTtTQUxBMTA3MTI7MjAyNS0wMy0yMjsiMDg6NTQ6MzMgIjsxOzIxOTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="diagonalMaior" type="Real" array="False" size=""/>
+            <declare name="diagonalMenor" type="Real" array="False" size=""/>
+            <declare name="losango" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a diagonal maior: &quot;" newline="True"/>
+            <input variable="diagonalMaior"/>
+            <output expression="&quot;Digite a diagonal menor: &quot;" newline="True"/>
+            <input variable="diagonalMenor"/>
+            <assign variable="losango" expression="(diagonalMaior * diagonalMenor) / 2"/>
+            <output expression="losango" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

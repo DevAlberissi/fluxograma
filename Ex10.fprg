@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ex10"/>
+        <attribute name="authors" value="2403321"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-22 08:44:41 "/>
+        <attribute name="created" value="MjQwMzMyMTtTQUxBMTA3MTI7MjAyNS0wMy0yMjsiMDg6NDI6NTEgIjsyMDgy"/>
+        <attribute name="edited" value="MjQwMzMyMTtTQUxBMTA3MTI7MjAyNS0wMy0yMjsiMDg6NDQ6NDEgIjsxOzIxOTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lado1" type="Real" array="False" size=""/>
+            <declare name="lado2" type="Real" array="False" size=""/>
+            <declare name="quadrado" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o lado1: &quot;" newline="True"/>
+            <input variable="lado1"/>
+            <output expression="&quot;Digite o lado2: &quot;" newline="True"/>
+            <input variable="lado2"/>
+            <assign variable="quadrado" expression="lado1 * lado2"/>
+            <output expression="quadrado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
