@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="14- A)"/>
+        <attribute name="authors" value="aalbe"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-26 01:43:54 "/>
+        <attribute name="created" value="YWFsYmU7REVTS1RPUC1RNVU5Rk5KOzIwMjUtMDMtMjY7IjAxOjIzOjE5ICI7Mjc3Mw=="/>
+        <attribute name="edited" value="YWFsYmU7REVTS1RPUC1RNVU5Rk5KOzIwMjUtMDMtMjY7IjAxOjQzOjU0ICI7MzsyODg0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="anoNascimento" type="Integer" array="False" size=""/>
+            <declare name="anos" type="Integer" array="False" size=""/>
+            <declare name="meses" type="Integer" array="False" size=""/>
+            <declare name="dias" type="Integer" array="False" size=""/>
+            <declare name="semanas" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite sua data de nascimento: &quot;" newline="True"/>
+            <input variable="anoNascimento"/>
+            <assign variable="anos" expression="2025 - anoNascimento"/>
+            <output expression="anos" newline="True"/>
+            <assign variable="meses" expression="(2025 - anoNascimento) * 12"/>
+            <output expression="meses" newline="True"/>
+            <assign variable="dias" expression="((2025 - anoNascimento) * 12) * 30"/>
+            <output expression="dias" newline="True"/>
+            <assign variable="semanas" expression="anos * 52"/>
+            <output expression="semanas" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Lista 2 de exercicios - 2"/>
+        <attribute name="authors" value="aalbe"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-26 02:17:38 "/>
+        <attribute name="created" value="YWFsYmU7REVTS1RPUC1RNVU5Rk5KOzIwMjUtMDMtMjY7IjAyOjEyOjE3ICI7Mjc3MA=="/>
+        <attribute name="edited" value="YWFsYmU7REVTS1RPUC1RNVU5Rk5KOzIwMjUtMDMtMjY7IjAyOjE3OjM4ICI7MTsyODg2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1" type="Real" array="False" size=""/>
+            <declare name="nota2" type="Real" array="False" size=""/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <output expression="&quot;Escreva a nota1: &quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Escreva a nota2: &quot;" newline="True"/>
+            <input variable="nota2"/>
+            <assign variable="media" expression="(nota1 + nota2) / 2"/>
+            <if expression="media &gt;= 7">
+                <then>
+                    <output expression="&quot;Aprovado&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="media &gt;= 4">
+                        <then>
+                            <output expression="&quot;Exame&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Reprovado&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

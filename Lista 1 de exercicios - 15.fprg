@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="15"/>
+        <attribute name="authors" value="aalbe"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-26 02:11:57 "/>
+        <attribute name="created" value="YWFsYmU7REVTS1RPUC1RNVU5Rk5KOzIwMjUtMDMtMjY7IjAxOjQ1OjA1ICI7Mjc3Mg=="/>
+        <attribute name="edited" value="YWFsYmU7REVTS1RPUC1RNVU5Rk5KOzIwMjUtMDMtMjY7IjAyOjExOjU3ICI7MTsyODgx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="salario" type="Real" array="False" size=""/>
+            <declare name="calculo" type="Real" array="False" size=""/>
+            <output expression="&quot;Escreve o salario: &quot;" newline="True"/>
+            <input variable="salario"/>
+            <assign variable="calculo" expression="salario -(salario * 4 /100)"/>
+            <output expression="calculo" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
